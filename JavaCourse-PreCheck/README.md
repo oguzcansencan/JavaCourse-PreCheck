@@ -3,7 +3,7 @@ Oguzcan Sencan (7216782) - Master Digital Transformation
 
 # Java Course - Pre-check Task
 
-Environment: Eclipse IDE
+Development Environment: Eclipse IDE
 
 - Participant Class is created which contains the following attributes:
     
