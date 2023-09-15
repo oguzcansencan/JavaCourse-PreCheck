@@ -5,12 +5,12 @@ Oguzcan Sencan (7216782) - Master Digital Transformation
 
 - Participant Class is created which contains the following attributes:
     
-        - Name
-        - Surname
-        - Age
-        - Sport
-        - National Awards
-        - International Awards
+        - Name (String)
+        - Surname (String)
+        - Age (int)
+        - Sport (String)
+        - National Awards (List<String>)
+        - International Awards (List<String>)
 
 - Then all the Getters and Setters are created for each of the attributes above.
 
