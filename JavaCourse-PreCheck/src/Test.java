@@ -6,22 +6,22 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		List<String> 	p1_nationalAwards 		= new ArrayList<String>(Arrays.asList("National Award #1", "National Award #2")),
-						p1_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #1")),
-						p2_nationalAwards 		= new ArrayList<String>(Arrays.asList("National Award #3")),
-						p2_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #2", "International Award #3")),
-						p3_nationalAwards 		= new ArrayList<String>(),
-						p3_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #4")),
-						p4_nationalAwards 		= new ArrayList<String>(Arrays.asList("National Award #4", "National Award #5", "National Award #6")),
-						p4_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #5")),
-						p5_nationalAwards 		= new ArrayList<String>(),
-						p5_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #6")),
-						p6_nationalAwards 		= new ArrayList<String>(),
-						p6_internationalAwards 	= new ArrayList<String>(),
-						p7_nationalAwards 		= new ArrayList<String>(Arrays.asList("National Award #7", "National Award #8")),
-						p7_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #7", "International Award #8", "International Award #9")),
-						p8_nationalAwards 		= new ArrayList<String>(Arrays.asList("National Award #9")),
-						p8_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #10"));
+		List<String> 	p1_nationalAwards 	= new ArrayList<String>(Arrays.asList("National Award #1", "National Award #2")),
+				p1_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #1")),
+				p2_nationalAwards 	= new ArrayList<String>(Arrays.asList("National Award #3")),
+				p2_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #2", "International Award #3")),
+				p3_nationalAwards 	= new ArrayList<String>(),
+				p3_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #4")),
+				p4_nationalAwards 	= new ArrayList<String>(Arrays.asList("National Award #4", "National Award #5", "National Award #6")),
+				p4_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #5")),
+				p5_nationalAwards 	= new ArrayList<String>(),
+				p5_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #6")),
+				p6_nationalAwards 	= new ArrayList<String>(),
+				p6_internationalAwards 	= new ArrayList<String>(),
+				p7_nationalAwards 	= new ArrayList<String>(Arrays.asList("National Award #7", "National Award #8")),
+				p7_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #7", "International Award #8", "International Award #9")),
+				p8_nationalAwards 	= new ArrayList<String>(Arrays.asList("National Award #9")),
+				p8_internationalAwards 	= new ArrayList<String>(Arrays.asList("International Award #10"));
 		
 		Participant p1 = new Participant("name1", "surname1", 24, "Basketball", p1_nationalAwards, p1_internationalAwards),
 					p2 = new Participant("name2", "surname2", 22, "Basketball", p2_nationalAwards, p2_internationalAwards),
@@ -42,9 +42,7 @@ public class Test {
 		
 		selectParticipantsByInternationalAwards(arr_participants, 1);
 		selectParticipantsByInternationalAwards(arr_participants, 2);
-		
-
-				
+						
 	}
 	
 	public static void selectParticipantsBySport(Participant[] arr_participants, String sport) {
