@@ -16,7 +16,8 @@ Oguzcan Sencan (7216782) - Master Digital Transformation
 
 - Then in the Test Class which has the main method:
 
-        - selectParticipantsBySport
-        - selectParticipantsByNationalAwards
-        - selectParticipantsByInternationalAwards
+        - selectParticipantsBySport(Participant[] arr, String sport)
+        - selectParticipantsByNationalAwards(Participant[] arr, int minAward)
+        - selectParticipantsByInternationalAwards(Participant[] arr, int minAward)
+  
 these three methods above are created to select participants depending on the specific attributes.
